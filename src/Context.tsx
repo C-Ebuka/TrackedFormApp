@@ -10,8 +10,6 @@ import * as Location from 'expo-location';
 import { Alert } from 'react-native';
 
 
-
-
 const firebaseConfig = {
     apiKey: "AIzaSyBDzDo6avxttMvVnUbsuXQG9TBtzkvuFI0",
     authDomain: "track-app-f434c.firebaseapp.com",
