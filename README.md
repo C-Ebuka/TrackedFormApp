@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -53,3 +54,7 @@ Join our community of developers creating universal apps.
 # VAXTRACKAPP
 A tracking form application
 >>>>>>> 161b095a81a647c84c5d1f2cada84098453286c0
+=======
+# TRACKAPP
+Tracking App
+>>>>>>> 4b1831ec9151add6a37fb487658464a9af2ce2a8
