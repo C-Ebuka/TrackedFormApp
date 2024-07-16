@@ -971,9 +971,9 @@ if (errorMsg) {
             <TouchableOpacity onPress={() => setFacilityCceStatus('Unequipped')} style={facilityCceStatus === 'Unequipped' ? styles.selectedAgeGrade : styles.ageGradeOption}>
               <ThemedText style={styles.ageGradeOptionText}>Unequipped</ThemedText>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => setFacilityCceStatus('Equipped but not functional')} style={facilityCceStatus === 'Equipped but not functional' ? styles.selectedAgeGrade : styles.ageGradeOption}>
+            {/*<TouchableOpacity onPress={() => setFacilityCceStatus('Equipped but not functional')} style={facilityCceStatus === 'Equipped but not functional' ? styles.selectedAgeGrade : styles.ageGradeOption}>
               <ThemedText style={styles.ageGradeOptionText}>Equipped but not functional</ThemedText>
-            </TouchableOpacity>
+            </TouchableOpacity>*/}
           </View>
         </View>
 

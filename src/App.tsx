@@ -130,23 +130,23 @@ const App = () => {
   }, []);
 
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }}/>
-        <Stack.Screen name="HomeScreen" component={HomeScreen}  options={{ headerShown: false }} />
-        <Stack.Screen name="MeaslesScreen" component={MeaslesScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="YellowFeverScreen" component={YellowFeverScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="MenAScreen" component={MenAScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="RotaScreen" component={RotaScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="HPVScreen" component={HPVScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="HepBScreen" component={HepBScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="BOPVScreen" component={BOPVScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="PentaScreen" component={PentaScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="PCVScreen" component={PCVScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="IPVScreen" component={IPVScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="TdScreen" component={TdScreen} options={{ headerShown: false }}/>
-        
-        
-    </Stack.Navigator>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="Login" component={Login} options={{ headerShown: false }}/>
+          <Stack.Screen name="HomeScreen" component={HomeScreen}  options={{ headerShown: false }} />
+          <Stack.Screen name="MeaslesScreen" component={MeaslesScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="YellowFeverScreen" component={YellowFeverScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="MenAScreen" component={MenAScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="RotaScreen" component={RotaScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="HPVScreen" component={HPVScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="HepBScreen" component={HepBScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="BOPVScreen" component={BOPVScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="PentaScreen" component={PentaScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="PCVScreen" component={PCVScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="IPVScreen" component={IPVScreen} options={{ headerShown: false }}/>
+          <Stack.Screen name="TdScreen" component={TdScreen} options={{ headerShown: false }}/>
+          
+          
+      </Stack.Navigator>
   );
 };
 export default App;
