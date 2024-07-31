@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Program Files\\nodejs;C:\\Program Files\\Git\\bin;%PATH%"
+    },
+    "workbench.settings.useSplitJSON": true
+}

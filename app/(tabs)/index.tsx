@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useState, useEffect } from 'react';
+import { VaccineProvider } from './context/vaccineContext';
+
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import { initializeApp } from 'firebase/app';
@@ -6,7 +8,7 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from 'firebas
 import 'firebase/firestore';
 import { Text, View, TextInput, Button } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './App/just';
+import HomeScreen from './App/HomeScreen';
 import MeaslesScreen from './App/MeaslesScreen';
 import {  Pressable, Alert } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -128,9 +130,9 @@ const App = () => {
   }, []);
 
   return (
+    <VaccineProvider>
     <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Login" component={Login} options={{ headerShown: false }}/>
-        <Stack.Screen name="HomeScreen" component={HomeScreen}  options={{ headerShown: false }} />
         <Stack.Screen name="MeaslesScreen" component={MeaslesScreen} options={{ headerShown: false }}/>
         <Stack.Screen name="YellowFeverScreen" component={YellowFeverScreen} options={{ headerShown: false }}/>
         <Stack.Screen name="MenAScreen" component={MenAScreen} options={{ headerShown: false }}/>
@@ -145,6 +147,7 @@ const App = () => {
         
         
     </Stack.Navigator>
+    </VaccineProvider>
   );
 };
 export default App;
